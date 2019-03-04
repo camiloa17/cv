@@ -1,7 +1,13 @@
 body {
     background-color:#e8e8e8;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
 span{
@@ -31,6 +37,12 @@ ul {
 /*Make the space for the fixed items on the left*/
 .content{
     padding: 20px 30px 20px 250px;
+}
+
+@media (min-width:1200px){
+   .content{
+    padding: 20px 250px 20px 250px;
+} 
 }
 
 /*Make the photo section fixed and centered*/
