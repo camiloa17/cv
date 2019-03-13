@@ -41,8 +41,11 @@ ul {
 
 @media (min-width:1200px){
    .content{
-    padding: 20px 250px 20px 250px;
+    padding: 20px 250px 20px 30%;
 } 
+.photo {
+    margin-left:10%;
+}
 }
 
 /*Make the photo section fixed and centered*/
