@@ -42,10 +42,10 @@ ul {
 @media (min-width:1200px){
    .content{
     padding: 20px 250px 20px 30%;
-} 
+ } 
 .photo {
     margin-left:10%;
-}
+ }
 }
 
 /*Make the photo section fixed and centered*/
@@ -71,7 +71,8 @@ ul {
     width: 125px;
     border-radius: 22px;
     background-color:white;
-    margin-left:35px;
+    margin: 0 auto;
+
 }
 .inner-progress{
     height:20px;
